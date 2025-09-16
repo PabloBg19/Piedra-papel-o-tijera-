@@ -126,7 +126,6 @@ def juego():
     ventanaJuego.update()
     buttonTijera.place(x= 360, y=ventanaJuego.winfo_height() - 100, anchor="se")
 
-     
     ventanaJuego.mainloop()
 
 botonPlay = tk.Button(ventana, text="JUGAR", command=juego)
